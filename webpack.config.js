@@ -23,7 +23,8 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.scss$/i,
+                // test: /\.scss$/i,
+                test: /\.(css|scss)$/i,
                 use: [
                     // 'style-loader', 
                     MiniCssExtractPlugin.loader,
