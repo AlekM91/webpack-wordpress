@@ -14,12 +14,12 @@
 @import "components/button";
 @import "components/card";
 @import "components/headings";
-@import "components/js-classes";
 @import "components/animations";
-@import "components/hamburger";
+
+@import "utilities/js-classes";
 
 @import "layout/_header";
 @import "layout/_nav";
 @import "layout/_footer";
 
-@import "pages/home";
+@import "pages/front-page";

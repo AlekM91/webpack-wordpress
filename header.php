@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- 
+Made by: Aleksandar Mitrevski
+https://github.com/AlekM91
+https://www.linkedin.com/in/alekm91/
+ -->
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
