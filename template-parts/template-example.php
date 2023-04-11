@@ -3,7 +3,13 @@
 get_header()
 ?>
 
-<div>This is an example template</div>
+<?php
+// echo '<pre>';
+// print_r(get_field('my_fields'));
+// echo '</pre>';
+// die();
+?>
+
 <?php
     // get_template_part('template-parts/template', 'example'); 
     // include (locate_template('template-parts/example/example-section.php', false, true)); 

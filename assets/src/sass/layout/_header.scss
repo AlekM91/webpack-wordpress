@@ -1,4 +1,10 @@
 // Header
 .site-header {
-  
+    .header-inner {
+        display: flex;
+        
+        .logo {
+            margin-right: auto;
+        }
+    }
 }

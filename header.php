@@ -13,4 +13,11 @@ https://www.linkedin.com/in/alekm91/
 </head>
 <body <?php body_class(); ?>>
     
-<p>This is the header</p>
+<header class="site-header">
+    <div class="header-inner wrapper">
+        <div class="logo">logo.</div>
+        <nav>
+            <?php wp_nav_menu(array('theme_location' => 'mainMenu', 'menu_class' => 'main-nav')) ?>
+        </nav>
+    </div>
+</header>

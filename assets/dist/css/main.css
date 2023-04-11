@@ -703,15 +703,19 @@ hr {
           user-select: none;
 }
 
-.test-div {
-  width: 500px;
-  height: 500px;
-  background: red;
-  border: 10px solid black;
+.js-no-scroll {
+  overflow: hidden;
 }
-.test-div p {
-  color: white;
-  font-size: 20px;
+
+.site-header .header-inner {
+  display: flex;
+}
+.site-header .header-inner .logo {
+  margin-right: auto;
+}
+
+.site-footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map*/
